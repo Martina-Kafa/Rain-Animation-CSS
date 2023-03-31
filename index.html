@@ -10,7 +10,7 @@
 <body>
     <script>
         function rain() {
-  let amount = 150;
+  let amount = 15;
   let body = document.querySelector("body");
   let i = 0;
   while (i < amount) {
@@ -18,8 +18,8 @@
 
     let size = Math.random() * 7;
     let positionX = Math.floor(Math.random() * window.innerWidth);
-    let delay = Math.random() * -10;
-    let duration = Math.random() * 10;
+    let delay = Math.random() * -50;
+    let duration = Math.random() * 20;
 
     drop.style.width = 0.5 + size + "px";
     drop.style.left = positionX + "px";
