@@ -13,7 +13,7 @@ body{
 
 i {
     position: absolute;
-    height: 200px;
+    height: 60px;
     background: linear-gradient(transparent, #fff);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -21,29 +21,27 @@ i {
 }
 
 i:nth-child(3n+1){
-    background: linear-gradient(transparent, #4989bd);
+    background: linear-gradient(transparent, #7abbf0);
 }
 i:nth-child(3n+2){
-    background: linear-gradient(transparent, #093e69);
+    background: linear-gradient(transparent, #14236f);
 }
 i:nth-child(3n+3){
-    background: linear-gradient(transparent, #0f2ea1);
+    background: linear-gradient(transparent, #0983f5);
+}
+i:nth-child(3n+4){
+    background: linear-gradient(transparent, #37839f);
+}
+i:nth-child(3n+4){
+    background: linear-gradient(transparent, #8fd2ea);
 }
 
 @keyframes animate {
     0% {
-        transform: translatY(-200px)
+        transform: translateY(-200px)
     }
     100% {
         transform: translateY(calc(100vh + 200px))
     }
     
-}
-
-h1 {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
